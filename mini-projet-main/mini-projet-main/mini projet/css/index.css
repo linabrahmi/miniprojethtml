@@ -1,0 +1,45 @@
+ body{
+                background-image: url('index.jpg');
+                background-color: darkorange;
+                background-size: cover;
+                background-repeat: no-repeat;
+             }
+             h1 {
+               font-family: "Raleway", sans-serif;
+               font-size: 150px;
+               font-display:center ;
+              }
+              html {
+                height: 100%
+              }
+              p{
+                font-size: 50px;
+                font-family: "dancing script", sans-serif;
+              }
+             ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+              }
+              
+              li {
+                float: left;
+              }
+              
+              li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+              }
+              
+              li a:hover:not(.active) {
+                background-color:#d68060;
+              }
+              
+              .active {
+                background-color: #f1ae89;
+              }
